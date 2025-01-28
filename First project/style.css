@@ -1,0 +1,16 @@
+h1 {
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+h2 {
+  background-color: aquamarine;
+  color: black;
+}
+body {
+  color: white;
+  background-color: black;
+  text-align: center;
+}

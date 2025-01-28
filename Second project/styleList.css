@@ -1,0 +1,64 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(13, 73, 79, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 80px;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+}
+
+.container {
+  background-color: rgb(36, 95, 75);
+}
+
+#Gyumolcs {
+  color: white;
+  font-size: 20px;
+}
+
+#Zoldseg {
+  list-style-type: square;
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+#Edesseg {
+  color: white;
+  list-style-type: circle;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+#Shopping-list {
+  color: white;
+  font-size: 20px;
+}
+
+#Kedd {
+  color: white;
+  font-size: 20px;
+}
+
+#Nevek {
+  color: white;
+  list-style-type: circle;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+#Valami {
+  color: white;
+  list-style-type: disc;
+  font-size: 20px;
+}
