@@ -27,3 +27,7 @@ nav {
   text-decoration: none;
   font-size: 30px;
 }
+img {
+  height: 500px;
+  width: 50%;
+}
