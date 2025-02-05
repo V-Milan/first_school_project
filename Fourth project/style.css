@@ -18,6 +18,10 @@ nav {
   display: inline-block;
 }
 
+.navbar {
+  margin: 35px;
+}
+
 .Links {
   display: inline-block;
 }
@@ -27,7 +31,50 @@ nav {
   text-decoration: none;
   font-size: 30px;
 }
-img {
+
+.card h2 {
+  display: inline-block;
+  font-style: italic;
+  font-weight: bold;
+}
+.card img {
   height: 500px;
-  width: 50%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(3, 53, 68);
+  transition: all .2s;
+}
+
+.card {
+  width: 40%;
+  display: inline-block;
+  padding: 20px;
+}
+
+#About {
+  width: 40%;
+  margin: 10px;
+}
+
+#About h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#Contact {
+  margin-top: 70px;
+}
+
+#Contact p{
+  font-size: 15px;
+  margin: 5px;
+  text-decoration: rgb(252, 251, 251) underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.card img:hover {
+  opacity: 0.5;
 }
