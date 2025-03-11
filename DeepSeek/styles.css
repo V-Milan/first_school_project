@@ -1,0 +1,119 @@
+:root {
+  --primary: #0a0f1f;
+  --secondary: #1a1f2f66;
+  --accent: #00ffff;
+  --neon: 0 0 30px rgba(0, 255, 255, 0.3);
+  --text: #f8fafc;
+  --glass: rgba(255, 255, 255, 0.05);
+  --border: rgba(0, 255, 255, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: var(--primary);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Premium Header */
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 1.5rem 0;
+  backdrop-filter: blur(20px);
+  background: var(--glass);
+  z-index: 1000;
+  border-bottom: 1px solid var(--border);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  background: linear-gradient(45deg, var(--accent), #00bfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  text-shadow: var(--neon);
+  opacity: 0.3;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.hero__title {
+  font-size: 5rem;
+  line-height: 1;
+  background: linear-gradient(45deg, var(--accent), #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+  text-shadow: var(--neon);
+}
+
+.code-preview {
+  width: 600px;
+  height: 400px;
+  background: var(--secondary);
+  border-radius: 2rem;
+  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+/* 3D Card Effects */
+.project-card {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.project-card:hover {
+  transform: rotateX(5deg) rotateY(5deg) translateZ(20px);
+}
+
+/* Interactive Form */
+.contact__form {
+  position: relative;
+  background: var(--secondary);
+  border-radius: 2rem;
+  padding: 3rem;
+  backdrop-filter: blur(10px);
+}
+
+.form__input {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border);
+  transition: all 0.3s;
+}
+
+.form__input:focus {
+  box-shadow: var(--neon);
+}

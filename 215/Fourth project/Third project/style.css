@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 80px;
+  background-color: bisque;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Konténer */
+.container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.headers .main-title {
+  color: #4caf50;
+  font-size: 2.5em;
+  margin-bottom: 100px;
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 10px;
+}
+
+.headers .sub-title {
+  color: #2196f3;
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  color: #ff9800;
+  font-size: 1.5em;
+  margin-bottom: 6px;
+}
+
+.text {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+#last_line {
+  color: blue;
+}
+
+.ordered-list {
+  margin: 10px 0;
+  padding-left: 20px;
+  font-weight: 200;
+}
+
+li:first-child {
+  background-color: #e3f2fd;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ff9800;
+}
+
+br {
+  margin: 10px;
+}
+
+.unordered-list {
+  list-style-type: disc;
+  font-weight: 200;
+}
+
+#line {
+  color: #2196f3;
+}
+
+#elso {
+  list-style-type: circle;
+}
+
+#harmadik {
+  list-style-type: circle;
+}

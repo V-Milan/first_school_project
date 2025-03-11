@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackGhost | Senior Full-Stack Engineer</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/threejs@0.132.2/examples/css/3dpreview.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+
+    <header class="header">
+      <nav class="nav container">
+        <div class="logo" data-text="BlackGhost">BlackGhost</div>
+        <ul class="nav__list">
+          <li>
+            <a href="#home" class="nav__link active"><span>Home</span></a>
+          </li>
+          <li>
+            <a href="#expertise" class="nav__link"><span>Expertise</span></a>
+          </li>
+          <li>
+            <a href="#work" class="nav__link"><span>Work</span></a>
+          </li>
+          <li>
+            <a href="#contact" class="nav__link"><span>Contact</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero__content container">
+          <div class="hero__text">
+            <h1 class="hero__title">Engineering<br />Digital Excellence</h1>
+            <p class="hero__subtitle">
+              Senior Full-Stack Developer & Technical Architect
+            </p>
+            <div class="hero__actions">
+              <a href="#work" class="btn btn--primary">View Case Studies</a>
+              <a href="#contact" class="btn btn--secondary"
+                >Schedule Consultation</a
+              >
+            </div>
+          </div>
+          <div class="hero__visual">
+            <div class="code-preview"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Other sections remain similar with enhanced content -->
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

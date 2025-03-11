@@ -1,0 +1,67 @@
+body {
+  background: rgb(9, 118, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 118, 121, 1) 5%,
+    rgba(0, 212, 255, 1) 49%,
+    rgba(2, 0, 36, 1) 98%
+  );
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.container {
+  background: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  padding: 30px;
+  flex-grow: 1;
+}
+
+.lakasok {
+  width: 100%;
+  border-collapse: collapse;
+}
+.lakasok th,
+.lakasok td {
+  border: 1px solid #0e0606;
+  text-align: center;
+  padding: 5px;
+}
+
+.lakasok th {
+  background-color: rgb(7, 135, 167);
+}
+
+.lakasok tr:hover {
+  background-color: rgb(140, 240, 240);
+  transition: 0.3s;
+}
+
+.osszefoglalas {
+  display: flex;
+}
+
+ul {
+  text-align: left;
+}
+
+ol {
+  text-align: left;
+}
+
+li {
+  list-style-type: disc;
+}

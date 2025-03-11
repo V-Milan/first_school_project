@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML és CSS példa</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headers">
+            <h1 class="main-title">Főcím</h1>
+            <h2 class="sub-title">Alcím</h2>
+            <h3 class="section-title">Harmadik szintű cím<h3>
+        </div>
+
+        <!-- Bekezdések -->
+        <div class="paragraphs">
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, sapien vitae dictum
+                dapibus, elit purus faucibus nisl, eget aliquam nunc erat non justo. Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit.
+                <br>
+                Illo quae asperiores eum, ipsa ad a dolor distinctio accusamus architecto incidunt exercitationem
+                officia voluptate nostrum deserunt laborum quos placeat eaque quo.
+            </p>
+            <br>
+            <p id="line">Proin commodo, mauris eget eleifend eleifend, justo dui semper sapien, sit amet ornare
+                orci
+                elit vel risus.</p>
+        </div>
+
+        <!-- Rendezett lista -->
+        <div class="lists">
+            <h3 class="list-title">Rendezett lista:<h3>
+            <ol class="ordered-list">
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Nullam euismod, sapien vitae dictum
+                    dapibus.</li>
+                <li>Praesent ornare arcu a ipsum feugiat tempus.<br>Maecenas sed diam eget risus varius blandit.</li>
+                <li>Curabitur non nulla sit amet nisl tempus convallis.<br>Vestibulum ante ipsum primis in faucibus orci
+                    luctus et ultrices posuere cubilia curae.</li>
+            
+
+            <!-- Rendezetlen lista -->
+            <h3 class="list-title">Rendezetlen lista:</h3>
+            <ul class="unordered-list">
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Integer posuere erat a ante venenatis
+                    dapibus.</li>
+                <li>Fusce dapibus, tellus ac cursus commodo.<br>Donec ullamcorper nulla non metus auctor fringilla.</li>
+                <li>Aenean eu leo quam. Pellentesque ornare sem lacinia.<br>Morbi leo risus, porta ac consectetur ac.
+                </li>
+            </ul>
+
+            <!-- Egymásba ágyazott lista -->
+            <h3 class="list-title">Egymásba ágyazott lista:</h3>
+            <ol class="nested-list">
+                <li>
+                    Első fő listaelem
+                    <ul id="elso">
+                        <li>Al-lista elem</li>
+                        <li>Al-lista elem<br>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </li>
+                <li>
+                    Második fő listaelem
+                    <ol>
+                        <li>Részletesebb lista elem</li>
+                        <li>Részletesebb lista elem<br>Nullam euismod sapien vitae dictum dapibus.</li>
+                    </ol>
+                </li>
+                <li>
+                    Harmadik fő listaelem
+                    <ul id="harmadik">
+                        <li>Al-lista elem 1</li>
+                        <li>Al-lista elem 2</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+
+</html>
