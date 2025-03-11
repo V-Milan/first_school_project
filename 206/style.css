@@ -52,6 +52,7 @@ body {
 
 .osszefoglalas {
   display: flex;
+  padding: 10px;
 }
 
 ul {
@@ -64,4 +65,78 @@ ol {
 
 li {
   list-style-type: disc;
+}
+
+.rovid {
+  padding: 30px;
+}
+
+.container2 {
+  background: rgb(45, 187, 180);
+  border-radius: 100px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  padding: 30px;
+}
+
+.container2 img {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 0 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info2 {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.lakasok2 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.lakasok2 th,
+.lakasok2 td {
+  border: 1px solid #0e0606;
+  text-align: center;
+  padding: 5px;
+}
+
+.lakasok2 th {
+  background-color: rgb(7, 135, 167);
+}
+
+.lakasok2 tr:hover {
+  background-color: rgb(98, 197, 197);
+  transition: 0.3s;
+}
+
+.osszefoglalas2 {
+  display: flex;
+  padding: 10px;
+}
+
+ul {
+  text-align: left;
+}
+
+ol {
+  text-align: left;
+}
+
+li {
+  list-style-type: disc;
+}
+
+.rovid2 {
+  padding: 30px;
+}
+
+h4 {
+  padding: 30px;
+}
+
+div.info2 {
+  padding: 100px;
 }
