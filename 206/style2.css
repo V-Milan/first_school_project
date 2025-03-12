@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.back-btn {
+    background-color: rgb(45, 187, 180);
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    border: black;
+    box-shadow: 0 5px 6px rgb(45, 187, 180);
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: rgb(7, 146, 170);
+    transform: scale(1.05);
+    transition: 0.15s;
+}
