@@ -1,3 +1,13 @@
+header {
+  background-color: rgb(5, 61, 145);
+  border-radius: 100px;
+  text-align: center;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.829);
+}
+
 body {
   background: rgb(9, 118, 121);
   background: linear-gradient(
@@ -7,7 +17,7 @@ body {
     rgba(2, 0, 36, 1) 98%
   );
   margin: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Exo 2", sans-serif;
   text-align: center;
 }
 
@@ -54,6 +64,7 @@ body {
 .osszefoglalas {
   display: flex;
   padding: 10px;
+  justify-content: center;
 }
 
 ul {
@@ -121,6 +132,7 @@ li {
 .osszefoglalas2 {
   display: flex;
   padding: 10px;
+  justify-content: center;
 }
 
 ul {
@@ -180,14 +192,14 @@ div.info2 {
   transition: 0.3s;
 }
 
-input{
+input {
   padding: 8px;
   border: 1px solid #0e0606;
   border-radius: 100px;
   width: 200px;
 }
 
-textarea{
+textarea {
   padding: 8px;
   border: 1px solid #0e0606;
   border-radius: 10px;
@@ -209,31 +221,47 @@ textarea{
 }
 
 .left-side .name,
-.left-side .email{
+.left-side .email {
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 .left-side button {
-  background-color: rgb(0, 255, 242);
+  background-color: rgb(13, 203, 209);
   color: rgb(0, 0, 0);
   border-radius: 100px;
   border: black;
   box-shadow: 0 5px 6px rgb(45, 187, 180);
   padding: 10px;
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
+  margin-top: 10px;
 }
 
-.right-side img{
+button:hover {
+  background-color: rgb(6, 133, 133);
+  transition: 0.5s;
+}
+
+.right-side img {
   width: 85px;
   height: 85px;
   border-radius: 25px;
   box-shadow: 0 9px 5px rgba(0, 0, 0, 0.2);
 }
 
-.right-side img:hover{
+.right-side img:hover {
   transform: scale(1.1);
   transition: 0.3s;
+}
+
+.left-side,
+.right-side,
+.middle-side {
+  margin-left: 80px;
+}
+
+.message {
+  display: flex;
 }
